@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Annonces de voyage au Cameroun</title>
+    <link rel="stylesheet" href="styles voyag.css">
+    <link rel="stylesheet" href="base data voyag.php">
+  </head>
+  <body>
+    <h1>qui voyage au Cameroun</h1>
+       <table>
+       <tr>
+        <th>Date de vol</th>
+        <th>Nom</th>
+        <th>Numéro de téléphone</th>
+        <th>Kilogrammes disponibles</th>
+        <th>Prix du kilogramme</th>
+        <th>Aéroport de départ</th>
+        <th>Aéroport d'arrivée</th>
+      </tr>
+      <tr>
+        <td>12 Mars 2023</td>
+        <td>Marie Dupont</td>
+        <td>06 12 34 56 78</td>
+        <td>5 kg</td>
+        <td>50 €</td>
+        <td>Charles de Gaulle</td>
+        <td>Yaoundé</td>
+      </tr>
+      <!-- Ajouter d'autres lignes pour d'autres annonces -->
+    </table>
+    <h2>Enregistrer une annonce</h2>
+    <form action="submit_annonce.php" method="post">
+      <label for="date">Date de vol :</label>
+      <input type="date" id="date" name="date"><br><br>
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom"><br><br>
+      <label for="tel">Numéro de téléphone :</label>
+      <input type="tel" id="tel" name="tel"><br><br>
+      <label for="kg">Kilogrammes disponibles :</label>
+      <input type="number" id="kg" name="kg"><br><br>
+      <label for="prix">Prix du kilogramme :</label>
+      <input type="number" id="prix" name="prix"><br><br>
+      <label for="depart">Aéroport de départ :</label>
+      <input type="text" id="depart" name="depart"><br><br>
+      <label for="arrivee">Aéroport d'arrivée :</label>
+      <input type="text" id="arrivee" name="arrivee"><br><br>
+      <input type="submit" value="Enregistrer">
+    </form>
+    <h2>whatsapp</h2>
+    <iframe src="https://web.whatsapp.com/"></iframe>
+  </body>
+</html>
